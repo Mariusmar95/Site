@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
   }
@@ -36,4 +36,9 @@
     .selection{
         width: 50%;
     }
+} */
+
+
+.cards{
+    height: 500px;
 }

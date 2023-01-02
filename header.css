@@ -3,6 +3,24 @@
     margin: 0;
   }
   
+
+iframe{
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+h1{
+padding: 10px;
+text-align: center;
+color: aliceblue;
+font-style: italic;
+}
+
+h2{
+  padding-top: 10px;
+}
+
   .primary-header{
     background-image: url(back.jpg);
     background-position: center;
@@ -64,7 +82,7 @@
   }
   .bar{
     display: block;
-    width: 25px;
+    width: 35px;
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease;
@@ -94,11 +112,13 @@
       width: 100%;
       text-align: center;
       transition: 0.3s;
+   
     }
    .nav-item{
       margin: 12px 0;
     }
    .nav-list.active{
       left: 0;
+   
     }
   }

@@ -1,0 +1,11 @@
+.col-lg-4{
+
+    margin-bottom: 1.5rem;
+}
+
+
+.col-lg-4 :hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    
+}

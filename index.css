@@ -6,6 +6,6 @@
 
 .col-lg-4 :hover{
     transform: scale(1.05);
-    transition: 0.5s;
+    transition:all 0.5s ease-in-out;
     
 }
